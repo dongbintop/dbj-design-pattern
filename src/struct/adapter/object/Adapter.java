@@ -1,20 +1,20 @@
 package struct.adapter.object;
 
-import struct.adapter.Adatee;
+import struct.adapter.Adaptee;
 import struct.adapter.Target;
 
 public class Adapter implements Target {
 
-    private Adatee adatee;
+    private Adaptee adaptee;
 
-    public Adapter(Adatee adatee) {
-        this.adatee = adatee;
+    public Adapter(Adaptee adaptee) {
+        this.adaptee = adaptee;
 
     }
 
     @Override
     public void method1() {
-        this.adatee.method();
+        this.adaptee.method();
     }
 
     @Override

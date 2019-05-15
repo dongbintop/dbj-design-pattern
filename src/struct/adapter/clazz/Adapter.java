@@ -1,9 +1,9 @@
 package struct.adapter.clazz;
 
-import struct.adapter.Adatee;
+import struct.adapter.Adaptee;
 import struct.adapter.Target;
 
-public class Adapter extends Adatee implements Target {
+public class Adapter extends Adaptee implements Target {
 
     @Override
     public void method1() {
