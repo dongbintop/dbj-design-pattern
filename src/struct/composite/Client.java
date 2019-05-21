@@ -26,7 +26,7 @@ public class Client {
         root.add(cd);
 
         System.out.println("结构图:");
-        root.display(1);
+        root.display(2);
         System.out.println();
         System.out.println("职责:");
         root.LineOfDuty();
